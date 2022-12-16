@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">AppTorneo</string>
+    <string name="tv_correo">e-mail</string>
+    <string name="tv_contraseña">contraseña</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_torneo">Torneo</string>
+    <string name="menu_gallery">Mapa</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="msg_nombre">Nombre del Torneo</string>
+    <string name="msg_ubicacion">Ubicacion</string>
+    <string name="msg_telefono">Telefono(0000–0000)</string>
+    <string name="msg_cantiEqui">Cantidad de Equipos</string>
+    <string name="BT_add_torneo">Agregar torneo</string>
+    <string name="BT_update_torneo">Actualizar Torneo</string>
+    <string name="msg_torneo_added">Torneo Agregado…</string>
+    <string name="msg_torneo_update">Torneo Actualizado…</string>
+
+    <string name="msg_nombreEqui">Nombre del Equipo</string>
+    <string name="bt_add_equipo">Agregar Equipo</string>
+    <string name="bt_update_equipo">Actualizar Equipo</string>
+    <string name="msg_equipo_update">Equipo Actualizado…</string>
+    <string name="msg_equipo_added">Equipo Agregado…</string>
+
+
+    <string name="bt_delete_Torneo">Eliminar Torneo</string>
+    <string name="msg_Torneo_deleted">Torneo Eliminado</string>
+    <string name="msg_pregunta_eliminar">Esta seguro de elimar el Torneo?</string>
+
+    <string name="msg_si">Si</string>
+    <string name="msg_no">No</string>
+
+    <string name="bt_delete_equipo">Eliminar Equipo</string>
+    <string name="msg_equipo_deleted">Equipo Eliminado</string>
+    <string name="msg_pregunta_eliminar_equi">Esta seguro de elimar el Equipo?</string>
+
+    <string name="msg_phone_call">Realizar llamada telefónica</string>
+    <string name="msg_whatsapp_send">Enviar mensaje WhatsApp</string>
+    <string name="msg_saludos">Saludos amigos</string>
+    <string name="msg_mensaje_correo">Le escribo este correo para</string>
+    <string name="msg_datos">Faltan datos</string>
+    <string name="error">Error</string>
+
+    <string name="msg_imagen">Imagen del equipo</string>
+    <string name="take_photo">Toma foto</string>
+    <string name="rotate_l">Rota izquierda</string>
+    <string name="rotale_r">Rota a la derecha</string>
+    <string name="msg_subiendo_imagen">Subiendo imagen</string>
+    <string name="Todo">Luego…</string>
+
+
+
+    <string name="default_web_client_id_r" translatable="false">
+        983485130391-c1rainlmj7ql0u5srqgn5v3103af5lms.apps.googleusercontent.com</string>
+
+    <string name="menu_home">Home</string>
+</resources>

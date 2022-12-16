@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="ui.torneo.AddTorneoFragment" >
+
+    <EditText
+        android:id="@+id/et_nombre_t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/msg_nombre"/>
+
+    <EditText
+        android:id="@+id/et_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/msg_ubicacion"/>
+
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/msg_telefono"/>
+
+    <EditText
+        android:id="@+id/et_cantiEqui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/msg_cantiEqui" />
+
+    <Button
+        android:id="@+id/bt_add_torneo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BT_add_torneo"
+        app:backgroundTint="#3EEC15" />
+
+</LinearLayout>

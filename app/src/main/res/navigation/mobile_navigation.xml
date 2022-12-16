@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_toneo"
+        android:name="com.apptorneo.ui.torneo.TorneoFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_torneo" >
+        <action
+            android:id="@+id/action_nav_toneo_to_addTorneoFragment"
+            app:destination="@id/addTorneoFragment" />
+        <action
+            android:id="@+id/action_nav_toneo_to_updateTorneoFragment"
+            app:destination="@id/updateTorneoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.apptorneo.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.apptorneo.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addTorneoFragment"
+        android:name="com.apptorneo.ui.torneo.AddTorneoFragment"
+        android:label="@string/BT_add_torneo"
+        tools:layout="@layout/fragment_add_torneo" >
+        <action
+            android:id="@+id/action_addTorneoFragment_to_equipoFragment"
+            app:destination="@id/equipoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateTorneoFragment"
+        android:name="com.apptorneo.ui.torneo.UpdateTorneoFragment"
+        android:label="@string/BT_update_torneo"
+        tools:layout="@layout/fragment_update_torneo" >
+        <action
+            android:id="@+id/action_updateTorneoFragment_to_nav_toneo"
+            app:destination="@id/nav_toneo"
+            />
+        <argument
+            android:name="torneo"
+            app:argType="com.apptorneo.model.Torneo" />
+    </fragment>
+    <fragment
+        android:id="@+id/equipoFragment"
+        android:name="com.apptorneo.ui.equipo.EquipoFragment"
+        android:label="fragment_equipo"
+        tools:layout="@layout/fragment_equipo" >
+        <action
+            android:id="@+id/action_equipoFragment_to_nav_toneo"
+            app:destination="@id/nav_toneo" />
+        <action
+            android:id="@+id/action_equipoFragment_to_addEquipoFragment"
+            app:destination="@id/addEquipoFragment" />
+        <action
+            android:id="@+id/action_equipoFragment_to_updateEquipoFragment"
+            app:destination="@id/updateEquipoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEquipoFragment"
+        android:name="com.apptorneo.ui.equipo.AddEquipoFragment"
+        android:label="fragment_add_equipo"
+        tools:layout="@layout/fragment_add_equipo" >
+        <action
+            android:id="@+id/action_addEquipoFragment_to_equipoFragment"
+            app:destination="@id/equipoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateEquipoFragment"
+        android:name="com.apptorneo.ui.equipo.UpdateEquipoFragment"
+        android:label="UpdateEquipoFragment"
+        tools:layout="@layout/fragment_update_equipo">
+        <argument
+            android:name="equipo"
+            app:argType="com.apptorneo.model.Equipo" />
+        <action
+            android:id="@+id/action_updateEquipoFragment_to_equipoFragment"
+            app:destination="@id/equipoFragment" />
+    </fragment>
+</navigation>

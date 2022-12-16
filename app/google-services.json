@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983485130391",
+    "project_id": "apptorneo-ddfa2",
+    "storage_bucket": "apptorneo-ddfa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983485130391:android:037a576de888087cafebd2",
+        "android_client_info": {
+          "package_name": "com.apptorneo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983485130391-c1rainlmj7ql0u5srqgn5v3103af5lms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdjh_-bYKf_u0-RAW5XKp8dZRRXY15d6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983485130391-c1rainlmj7ql0u5srqgn5v3103af5lms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

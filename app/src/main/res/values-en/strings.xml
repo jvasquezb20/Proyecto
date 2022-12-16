@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppTorneo</string>
+    <string name="tv_correo">e-mail</string>
+    <string name="tv_contraseña">password</string>
+    <string name="title_activity_principal">Inicial</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_torneo">Tournament</string>
+    <string name="menu_gallery">gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="msg_nombre">Tournament name</string>
+    <string name="msg_ubicacion">Location</string>
+    <string name="msg_telefono">Phone number(0000–0000)</string>
+    <string name="msg_cantiEqui">Cantidad de Equipos</string>
+    <string name="BT_add_torneo">Add Tournament</string>
+    <string name="BT_update_torneo">Update Tournament</string>
+    <string name="msg_torneo_added">Tournament Added…</string>
+    <string name="msg_torneo_update" >Tournament updated…</string>
+
+    <string name="msg_nombreEqui">Team Name</string>
+    <string name="bt_add_equipo">Add Team</string>
+    <string name="bt_update_equipo">Update Team</string>
+    <string name="msg_equipo_added">Team added…</string>
+    <string name="msg_equipo_update">Team updated…</string>
+
+    <string name="bt_delete_Torneo">Delete Tournament</string>
+    <string name="msg_Torneo_deleted">Tournament deleted…</string>
+    <string name="msg_pregunta_eliminar">Are you sure to delete this Tournament?</string>
+    <string name="msg_si">yes</string>
+    <string name="msg_no">No</string>
+
+    <string name="bt_delete_equipo">Delete Team</string>
+    <string name="msg_equipo_deleted">Team deleted</string>
+    <string name="msg_pregunta_eliminar_equi">Are you sure to delete this Team?</string>
+
+    <string name="msg_phone_call">Make a call phone</string>
+    <string name="msg_whatsapp_send">Send WhatsApp message</string>
+    <string name="msg_saludos">Dear friends</string>
+    <string name="msg_mensaje_correo">Le escribo este correo para</string>
+    <string name="msg_datos">Missing data</string>
+    <string name="error">Error</string>
+
+    <string name="msg_imagen">Image of the team</string>
+    <string name="take_photo">Take photo</string>
+    <string name="rotate_l">Rotate left</string>
+    <string name="rotale_r">Rotate right</string>
+    <string name="msg_subiendo_imagen">Uploading image</string>
+    <string name="Todo">then…</string>
+    <string name="menu_home">Home</string>
+</resources>
