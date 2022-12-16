@@ -112,7 +112,6 @@ class MainActivity : AppCompatActivity() {
         val email = binding.etCorreo.text.toString()
         val contra = binding.etClave.text.toString()
         Log.d("Autenticandonos","Haciendo llamada de autenticacion")
-        //utlizo el auth para el registro
 
         auth.signInWithEmailAndPassword(email,contra)
             .addOnCompleteListener(this) { task->
@@ -128,7 +127,7 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-    //esto se ejecuta para validar si hay un usario autenticado
+
 
     public override fun onStart() {
         super.onStart()

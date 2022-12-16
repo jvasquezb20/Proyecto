@@ -8,6 +8,7 @@ import com.apptorneo.databinding.EquipoFilaBinding
 import com.apptorneo.databinding.TorneoFilaBinding
 import com.apptorneo.model.Equipo
 import com.apptorneo.model.Torneo
+import com.apptorneo.ui.equipo.EquipoFragmentDirections
 import com.apptorneo.ui.torneo.TorneoFragmentDirections
 import com.bumptech.glide.Glide
 
@@ -16,7 +17,7 @@ class EquipoAdapter : RecyclerView.Adapter<EquipoAdapter.EquipoViewHolder>() {
 
     private var listaEquipos = emptyList<Equipo>()
 
-    //contenedor de vistas "Cajjitas" en memoria
+
     inner class EquipoViewHolder(private val itemBinding: EquipoFilaBinding)
         : RecyclerView.ViewHolder(itemBinding.root){
         fun dibuja(equipo: Equipo){
@@ -24,11 +25,11 @@ class EquipoAdapter : RecyclerView.Adapter<EquipoAdapter.EquipoViewHolder>() {
             Glide.with(itemBinding.root.context).load(equipo.rutaImagen)
                 .circleCrop().into(itemBinding.imagen)
 
-            /*itemBinding.vistaEquipoFila.setOnClickListener{
+            itemBinding.vistaEquipoFila.setOnClickListener{
                 val action = EquipoFragmentDirections
-                    .actionNavToneoToUpdateTorneoFragment(equipo)
+                    .actionEquipoFragmentToAddEquipoFragment()
                 itemView.findNavController().navigate(action)
-            }*/
+            }
 
 
         }

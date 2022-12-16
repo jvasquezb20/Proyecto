@@ -40,7 +40,7 @@ class AddTorneoFragment : Fragment() {
         val cantiEqui = binding.etCantiEqui.text.toString()
 
 
-        if (nombre.isNotEmpty()){ //al menos tenemos un nombre
+        if (nombre.isNotEmpty()){
             val torneo= Torneo("",nombre,Ubicacion,telefono,cantiEqui)
 
             torneoViewModel.saveTorneo(torneo)

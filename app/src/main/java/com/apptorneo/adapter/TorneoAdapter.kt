@@ -13,7 +13,7 @@ class TorneoAdapter : RecyclerView.Adapter<TorneoAdapter.TorneoViewHolder>() {
 
     private var listaTorneos = emptyList<Torneo>()
 
-    //contenedor de vistas "Cajjitas" en memoria
+
     inner class TorneoViewHolder(private val itemBinding: TorneoFilaBinding)
         : RecyclerView.ViewHolder(itemBinding.root){
         fun dibuja(torneo: Torneo){
